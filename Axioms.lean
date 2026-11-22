@@ -14,6 +14,15 @@ import UDuality
 #print axioms UDuality.Densities.thmB_nsq
 #print axioms UDuality.Densities.coeff_X
 #print axioms UDuality.Densities.euler_factor
+#print axioms UDuality.Dyons.delta_transform
+#print axioms UDuality.Dyons.attractor_equivariant
+#print axioms UDuality.Dyons.attractor_root
+#print axioms UDuality.Dyons.disc_comp
+#print axioms UDuality.Dyons.witt_count
+#print axioms UDuality.Dyons.ternary_count
+#print axioms UDuality.Dyons.countD
+#print axioms UDuality.Dyons.countD_zero
+#print axioms UDuality.Dyons.euler_factor
 #print axioms UDuality.nullPairs
 #print axioms UDuality.albertS_split
 #print axioms UDuality.albert_M_of_S
