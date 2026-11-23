@@ -56,3 +56,15 @@ import UDuality
 #print axioms UDuality.Igusa.W_eta_6
 #print axioms UDuality.Igusa.zetaDelta_one
 #print axioms UDuality.Igusa.zetaDelta_eta
+#print axioms UDuality.Entropy.heegner_norm
+#print axioms UDuality.Entropy.jacobian_det
+#print axioms UDuality.Entropy.hecke_sign
+#print axioms UDuality.Entropy.ell_prime
+#print axioms UDuality.Entropy.cusp_lower
+#print axioms UDuality.Entropy.log_six_div_pi_le
+#print axioms UDuality.Entropy.exp_pi_sqrt3_ge
+#print axioms UDuality.Entropy.four_lt_const
+#print axioms UDuality.Entropy.const_C
+#print axioms UDuality.Entropy.mean_torsion_one
+#print axioms UDuality.Entropy.mean_all
+#print axioms UDuality.Entropy.all_torsion_const
