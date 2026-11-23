@@ -4,6 +4,7 @@ Lean 4 formalization accompanying the series *Arithmetic Statistics of U-Duality
 
 - Part I: The Mass of Integral E₇ Black Hole Charges
 - Part II: Quarter-BPS Dyons in Heterotic String Theory
+- Part III: The Mean Entropy of Quarter-BPS Dyons
 
 | File | Content |
 |---|---|
@@ -12,6 +13,7 @@ Lean 4 formalization accompanying the series *Arithmetic Statistics of U-Duality
 | `UDuality/Densities.lean` | Denef–Meuser functional equation, generating function of the local densities (Theorem B), corollary factorisations |
 | `UDuality/Cubes.lean` | Invariance of the quartic form for the triple system over R³ (Bhargava cubes) and the slice lemma |
 | `UDuality/Dyons.lean` | Part II: S-duality transformation of the quartic invariant and of the attractor equation, discriminants under substitution, Witt count from orthogonal group orders (all ranks), finite-field counts of Δ = Q²P² − (Q·P)² on the Narain lattice, Euler factors |
+| `UDuality/Entropy.lean` | Part III: Epstein zeta function at Heegner points, Jacobian of the reduced-form coordinates, Hecke leading coefficient, the lower bound S₁ > 4 (with explicit bounds on log(6/π) and e^{π√3}), constants of the mean values |
 
 Build (Lean v4.36.0, Mathlib v4.36.0):
 
@@ -21,4 +23,4 @@ lake build
 lake env lean Axioms.lean
 ```
 
-All 57 theorems use only the standard axioms (`propext`, `Classical.choice`, `Quot.sound`); see `axioms.txt`.
+All 69 theorems use only the standard axioms (`propext`, `Classical.choice`, `Quot.sound`); see `axioms.txt`.
